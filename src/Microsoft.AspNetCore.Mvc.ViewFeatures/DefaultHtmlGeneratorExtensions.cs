@@ -45,6 +45,41 @@ namespace Microsoft.AspNetCore.Mvc.ViewFeatures
                 tagBuilder.Attributes["action"] += "#" + fragment;
             }
 
+            if (fragment != null)
+            {
+                tagBuilder.Attributes["action"] += "#" + fragment;
+            }
+
+            if (fragment != null)
+            {
+                tagBuilder.Attributes["action"] += "#" + fragment;
+            }
+
+            if (fragment != null)
+            {
+                tagBuilder.Attributes["action"] += "#" + fragment;
+            }
+
+            if (fragment != null)
+            {
+                tagBuilder.Attributes["action"] += "#" + fragment;
+            }
+
+            if (fragment != null)
+            {
+                tagBuilder.Attributes["action"] += "#" + fragment;
+            }
+
+            if (fragment != null)
+            {
+                tagBuilder.Attributes["action"] += "#" + fragment;
+            }
+
+            if (fragment != null)
+            {
+                tagBuilder.Attributes["action"] += "#" + fragment;
+            }
+
             return tagBuilder;
         }
     }
