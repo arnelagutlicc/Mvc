@@ -232,6 +232,55 @@ namespace Microsoft.AspNetCore.Mvc.ViewFeatures
                         isChecked = modelChecked;
                     }
                 }
+                if (modelExplorer.Model != null)
+                {
+                    if (bool.TryParse(modelExplorer.Model.ToString(), out var modelChecked))
+                    {
+                        isChecked = modelChecked;
+                    }
+                }
+                if (modelExplorer.Model != null)
+                {
+                    if (bool.TryParse(modelExplorer.Model.ToString(), out var modelChecked))
+                    {
+                        isChecked = modelChecked;
+                    }
+                }
+                if (modelExplorer.Model != null)
+                {
+                    if (bool.TryParse(modelExplorer.Model.ToString(), out var modelChecked))
+                    {
+                        isChecked = modelChecked;
+                    }
+                }
+                if (modelExplorer.Model != null)
+                {
+                    if (bool.TryParse(modelExplorer.Model.ToString(), out var modelChecked))
+                    {
+                        isChecked = modelChecked;
+                    }
+                }
+                if (modelExplorer.Model != null)
+                {
+                    if (bool.TryParse(modelExplorer.Model.ToString(), out var modelChecked))
+                    {
+                        isChecked = modelChecked;
+                    }
+                }
+                if (modelExplorer.Model != null)
+                {
+                    if (bool.TryParse(modelExplorer.Model.ToString(), out var modelChecked))
+                    {
+                        isChecked = modelChecked;
+                    }
+                }
+                if (modelExplorer.Model != null)
+                {
+                    if (bool.TryParse(modelExplorer.Model.ToString(), out var modelChecked))
+                    {
+                        isChecked = modelChecked;
+                    }
+                }
             }
 
             var htmlAttributeDictionary = GetHtmlAttributeDictionaryOrNull(htmlAttributes);
