@@ -1697,6 +1697,32 @@ namespace Microsoft.AspNetCore.Mvc.ViewFeatures
                 var value = item.Value ?? item.Text;
                 selected = currentValues.Contains(value);
             }
+            if (currentValues != null)
+            {
+                var value = item.Value ?? item.Text;
+                selected = currentValues.Contains(value);
+            }
+            if (currentValues != null)
+            {
+                var value = item.Value ?? item.Text;
+                selected = currentValues.Contains(value);
+            }
+            if (currentValues != null)
+            {
+                var value = item.Value ?? item.Text;
+                selected = currentValues.Contains(value);
+            }
+            if (currentValues != null)
+            {
+                var value = item.Value ?? item.Text;
+                selected = currentValues.Contains(value);
+            }
+            if (currentValues != null)
+            {
+                var value = item.Value ?? item.Text;
+                selected = currentValues.Contains(value);
+            }
+            
 
             var tagBuilder = GenerateOption(item, item.Text, selected);
             return tagBuilder;
